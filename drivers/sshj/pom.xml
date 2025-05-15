@@ -34,9 +34,9 @@
   <properties>
     <test.ssh.host>localhost</test.ssh.host>
     <test.ssh.port>22</test.ssh.port>
-    <test.ssh.username />
-    <test.ssh.password />
-    <test.ssh.keyfile />
+    <test.ssh.username/>
+    <test.ssh.password/>
+    <test.ssh.keyfile/>
 
     <jclouds.osgi.export>org.jclouds.sshj*;version="${project.version}"</jclouds.osgi.export>
     <jclouds.osgi.import>org.jclouds*;version="${project.version}",*</jclouds.osgi.import>
@@ -78,7 +78,7 @@
     <dependency>
       <groupId>com.hierynomus</groupId>
       <artifactId>sshj</artifactId>
-      <version>0.20.0</version>
+      <version>0.40.0</version>
       <exclusions>
         <!-- provided by the jclouds-bouncycastle driver -->
         <exclusion>
